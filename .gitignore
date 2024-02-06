@@ -7,7 +7,7 @@ __pycache__/
 .venv/
 #allure
 allure_results
-
+tests/allure_results
 # C extensions
 *.so
 
