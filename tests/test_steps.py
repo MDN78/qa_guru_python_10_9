@@ -6,6 +6,7 @@ from allure_commons.types import Severity
 from utils.function_steps import open_main_page, open_issue_tab, search_for_repository, go_to_repository, \
     should_see_issue_with_number
 
+
 @allure.tag('Github')
 @allure.severity(Severity.NORMAL)
 @allure.label('Owner', 'eroshenkoam')

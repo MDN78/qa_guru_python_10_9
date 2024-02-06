@@ -3,6 +3,7 @@ from selene import browser
 from selene.support.shared.jquery_style import s
 import allure
 
+
 @allure.step("Открываем главную страницу")
 def open_main_page():
     browser.config.window_width = 1920
