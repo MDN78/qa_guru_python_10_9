@@ -33,6 +33,12 @@ def test_dynamic_steps():
         browser.element(by.partial_text("#76")).should(be.visible)
 
 
+@allure.tag('Github')
+@allure.severity(Severity.MINOR)
+@allure.label('Owner_2', 'eroshenkoam')
+@allure.feature("Tasks in repository second variant")
+@allure.story('Checking issue № 76')
+@allure.link('https://github.com', name='Testing')
 def test_decorator_steps():
     open_main_page()
     search_for_repository("eroshenkoam/allure-example")
